@@ -19,15 +19,11 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 }
 
 /* COLORS */
-.red {
-   color: #B72703;
- }
+.yellow {
+  color: #F9DD72;
+}
 
- .yellow {
-   color: #D4C470;
- }
-
- .blue {
+.blue {
   color: #26ADFF;
 }
 
@@ -51,12 +47,10 @@ body {
 }
 
 a { 
-  color: #D4C470; 
+  background: #26ADFF;
+  color: #F9DD72; 
+  padding: 0.1em;
   text-decoration: none; 
-}
-
-h1 a {
-  color: #26ADFF;
 }
 
 pre {
@@ -64,27 +58,32 @@ pre {
   font-size: 0.8em;
 }
 
+time {
+  color: #F9DD72;
+}
+
+.section {
+  margin-bottom: 16px;
+}
+
 /* POST */
+
 .post { 
   margin-bottom: 96px; 
 }
 
-.post h1 a {
-  color: #B72703;
-}
+/* POSTS */
 
-/* HOME */
-.home ul {
+ul.posts {
   padding: 0;
 }
 
-.home li {
+.posts li {
   list-style: none;
 }
 
-.home li,
-.home li a {
-  color: #B72703;
+.posts time {
+  font-size: 0.6em;
 }
 
 /* SINGLE */
