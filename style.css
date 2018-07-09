@@ -4,7 +4,7 @@
 * {
   box-sizing: border-box;
 }
-body, h1, h2, h3, h4, h5, h6, dl, ol, ul, p,
+body, h1, h2, h3, h4, h5, h6, dl, ol, ul,
 button, input, select, textarea {
   margin: 0;
 }
@@ -46,11 +46,11 @@ body {
   margin: 16px;
 }
 
-a { 
+a {
   background: #26ADFF;
-  color: #F9DD72; 
+  color: #F9DD72;
   padding: 0.1em;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 pre {
@@ -66,10 +66,14 @@ time {
   margin-bottom: 16px;
 }
 
+.container {
+  max-width: 700px;
+}
+
 /* POST */
 
-.post { 
-  margin-bottom: 96px; 
+.post {
+  margin-bottom: 96px;
 }
 
 /* POSTS */
